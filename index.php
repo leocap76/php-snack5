@@ -5,6 +5,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>hotel snack 5</title>
   </head>
   <body>
@@ -12,8 +13,8 @@
       tutti i dati disponibili.
       Avremo un file PHP con il nostro “database”
       e un file con tutta la logica. -->
-
-    <ul>
+    <h1>Hotels</h1>
+    <ul class="container_hotel">
       <?php foreach ($hotels as $hotel) { ?>
         <li>
           <h2><?= $hotel["name"]; ?> </h2>
